@@ -3,21 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="test.VerifySavedBankAccdetails_Wishlist"/>
       <class name="test.VerifyQuickViewDetails"/>
-      <class name="test.VerifyProdSpec_Similarprods"/>
-      <class name="test.verifyWhislistLogin"/>
-      <class name="test.VerifyAccountSettings_wishlist"/>
-      <class name="test.VerifydisplayofCODproducts"/>
-      <class name="test.VerifyBankDetailsinWishlist"/>
-      <class name="test.VerifyInvalidloginWishlist"/>
-      <class name="test.VerifyPaymentpgeForCart"/>
-      <class name="test.VerifysaveddetailsareRemoved_Wishlist"/>
-      <class name="test.VerifyRemoveCartItem"/>
-      <class name="test.VerifyAccountSettingsdetails"/>
-      <class name="test.VerifyAddToCart"/>
       <class name="test.VerifyMyCartPagedetails"/>
-      <class name="test.VerifyUserIsAbleToPlaceOrderFromCart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

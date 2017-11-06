@@ -17,6 +17,7 @@ public class VerifyQuickViewDetails  extends BaseTest {
 	@Test(priority=5)
 	public void testVerifyQuickViewDetails() throws InterruptedException
 	{
+		test=extent.startTest("testVerifyQuickViewDetails");
 		
 		Craftsvilla_HomePage bh=new Craftsvilla_HomePage(driver);
 		bh.selectoption();

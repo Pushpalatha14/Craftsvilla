@@ -1,66 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22148" started-at="2017-11-03T08:52:15Z" finished-at="2017-11-03T08:52:37Z">
+  <suite name="Default suite" duration-ms="47398" started-at="2017-11-06T11:38:11Z" finished-at="2017-11-06T11:38:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22148" started-at="2017-11-03T08:52:15Z" finished-at="2017-11-03T08:52:37Z">
-      <class name="test.VerifyMyCartPagedetails">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="startReport" is-config="true" duration-ms="423" started-at="2017-11-03T14:22:15Z" finished-at="2017-11-03T14:22:15Z">
+    <test name="Default test" duration-ms="47398" started-at="2017-11-06T11:38:11Z" finished-at="2017-11-06T11:38:58Z">
+      <class name="test.VerifyQuickViewDetails">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="startReport" is-config="true" duration-ms="225" started-at="2017-11-06T17:08:11Z" finished-at="2017-11-06T17:08:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="openapp()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="openapp" is-config="true" duration-ms="9750" started-at="2017-11-03T14:22:15Z" finished-at="2017-11-03T14:22:25Z">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="openapp" is-config="true" duration-ms="12704" started-at="2017-11-06T17:08:11Z" finished-at="2017-11-06T17:08:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="testVerifyMyCartPagedetails()[pri:1, instance:test.VerifyMyCartPagedetails@5383967b]" name="testVerifyMyCartPagedetails" duration-ms="10052" started-at="2017-11-03T14:22:25Z" finished-at="2017-11-03T14:22:35Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at generic.BasePage.verifytitle(BasePage.java:35)
-	at test.VerifyMyCartPagedetails.testVerifyMyCartPagedetails(VerifyMyCartPagedetails.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="testVerifyQuickViewDetails()[pri:5, instance:test.VerifyQuickViewDetails@2038ae61]" name="testVerifyQuickViewDetails" duration-ms="33740" started-at="2017-11-06T17:08:24Z" finished-at="2017-11-06T17:08:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVerifyMyCartPagedetails -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="closeapp" is-config="true" duration-ms="1072" started-at="2017-11-03T14:22:36Z" finished-at="2017-11-03T14:22:37Z">
+        </test-method> <!-- testVerifyQuickViewDetails -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="closeapp" is-config="true" duration-ms="1" started-at="2017-11-06T17:08:58Z" finished-at="2017-11-06T17:08:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="endReport" is-config="true" duration-ms="489" started-at="2017-11-03T14:22:37Z" finished-at="2017-11-03T14:22:37Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="endReport" is-config="true" duration-ms="289" started-at="2017-11-06T17:08:58Z" finished-at="2017-11-06T17:08:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- test.VerifyMyCartPagedetails -->
+      </class> <!-- test.VerifyQuickViewDetails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

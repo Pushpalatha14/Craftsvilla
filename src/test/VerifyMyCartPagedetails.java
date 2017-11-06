@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import generic.BaseTest;
 import generic.Excel;
-import generic.GenerateExtentReport;
+//import generic.GenerateExtentReport;
 import page.Cart;
 import page.Craftsvilla_HomePage;
 
@@ -20,6 +20,7 @@ public class VerifyMyCartPagedetails extends BaseTest {
 	public void testVerifyMyCartPagedetails() throws EncryptedDocumentException, InvalidFormatException, IOException, InterruptedException
 	{
 		test = extent.startTest("VerifyMyCartPagedetails");
+		
 		
 		String cartitl = Excel.getdata(PATH, "Titles", 0, 0);
 		Craftsvilla_HomePage bh=new Craftsvilla_HomePage(driver);

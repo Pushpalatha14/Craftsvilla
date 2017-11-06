@@ -27,12 +27,12 @@ public abstract class BasePage {
 		WebDriverWait wait=new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains(etitle));
 		//Reporter.log("Ttile is matching: "+etitle,true);
-		GenerateExtentReport.test.log(LogStatus.PASS, "Title is matching");
+		BaseTest.test.log(LogStatus.PASS, "Title is matching");
 	}
 		catch(Exception e)
 		{
 			//Reporter.log("Ttile is not matching",true);
-			GenerateExtentReport.test.log(LogStatus.FAIL, "Title is not matching");
+			BaseTest.test.log(LogStatus.FAIL, "Title is not matching");
 			Assert.fail();
 		}
 	}

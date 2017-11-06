@@ -24,16 +24,12 @@ public abstract class BaseTest implements AutoConstant{
 	public void startReport(){
 		
 		extent = new ExtentReports("./test-output/MyOwnReport.html",true);
-		extent.addSystemInfo("HoastName", "Pushpa")
+		extent.addSystemInfo("Host Name", "Pushpa")
 		.addSystemInfo("Environment", "QA")
 		.addSystemInfo("User Name", "Pushpalatha");
 		
 		extent.loadConfig(new File("./extent-config.xml"));
-		
-		
-	}
-	
-	
+		}	
 	
 	@BeforeMethod
 public void openapp()
@@ -49,14 +45,14 @@ public void openapp()
 	@AfterMethod
 	public void closeapp()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 	
 	@AfterTest
 	public void endReport()
 	{
 		extent.flush();
-		extent.close();
+		//extent.close();
 	}
 
 }

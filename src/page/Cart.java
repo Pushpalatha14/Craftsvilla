@@ -7,7 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 import generic.BasePage;
+import generic.BaseTest;
 
 public class Cart extends BasePage{
 	
@@ -62,7 +65,8 @@ public class Cart extends BasePage{
 		highlightElement(msg);
 		if(msg.isDisplayed())
 		{
-		Reporter.log(txt+" : Message is displayed",true);
+		//Reporter.log(txt+" : Message is displayed",true);
+			BaseTest.test.log(LogStatus.PASS, txt+" : Message is displayed");	
 		}
 		else
 			Reporter.log("Message is not displayed");

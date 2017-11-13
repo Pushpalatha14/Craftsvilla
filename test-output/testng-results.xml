@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Button is displayed]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47398" started-at="2017-11-06T11:38:11Z" finished-at="2017-11-06T11:38:58Z">
+  <suite name="Default suite" duration-ms="22689" started-at="2017-11-07T07:27:30Z" finished-at="2017-11-07T07:27:52Z">
     <groups>
+      <group name="report">
+        <method signature="VerifyMyCartPagedetails.testVerifyMyCartPagedetails()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="testVerifyMyCartPagedetails" class="test.VerifyMyCartPagedetails"/>
+      </group> <!-- report -->
     </groups>
-    <test name="Default test" duration-ms="47398" started-at="2017-11-06T11:38:11Z" finished-at="2017-11-06T11:38:58Z">
-      <class name="test.VerifyQuickViewDetails">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="startReport" is-config="true" duration-ms="225" started-at="2017-11-06T17:08:11Z" finished-at="2017-11-06T17:08:11Z">
+    <test name="Default test" duration-ms="22689" started-at="2017-11-07T07:27:30Z" finished-at="2017-11-07T07:27:52Z">
+      <class name="test.VerifyMyCartPagedetails">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="startReport" is-config="true" duration-ms="203" started-at="2017-11-07T12:57:30Z" finished-at="2017-11-07T12:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="openapp()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="openapp" is-config="true" duration-ms="12704" started-at="2017-11-06T17:08:11Z" finished-at="2017-11-06T17:08:24Z">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="openapp" is-config="true" duration-ms="10524" started-at="2017-11-07T12:57:30Z" finished-at="2017-11-07T12:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="testVerifyQuickViewDetails()[pri:5, instance:test.VerifyQuickViewDetails@2038ae61]" name="testVerifyQuickViewDetails" duration-ms="33740" started-at="2017-11-06T17:08:24Z" finished-at="2017-11-06T17:08:57Z">
+        <test-method status="PASS" signature="testVerifyMyCartPagedetails()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="testVerifyMyCartPagedetails" duration-ms="11382" started-at="2017-11-07T12:57:41Z" finished-at="2017-11-07T12:57:52Z">
           <reporter-output>
+            <line>
+              <![CDATA[Button is displayed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- testVerifyQuickViewDetails -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="closeapp" is-config="true" duration-ms="1" started-at="2017-11-06T17:08:58Z" finished-at="2017-11-06T17:08:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:test.VerifyQuickViewDetails@2038ae61]" name="endReport" is-config="true" duration-ms="289" started-at="2017-11-06T17:08:58Z" finished-at="2017-11-06T17:08:58Z">
+        </test-method> <!-- testVerifyMyCartPagedetails -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="endReport" is-config="true" duration-ms="224" started-at="2017-11-07T12:57:52Z" finished-at="2017-11-07T12:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- test.VerifyQuickViewDetails -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:test.VerifyMyCartPagedetails@5383967b]" name="closeapp" is-config="true" duration-ms="0" started-at="2017-11-07T12:57:52Z" finished-at="2017-11-07T12:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- test.VerifyMyCartPagedetails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

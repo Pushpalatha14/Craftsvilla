@@ -7,6 +7,8 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 import generic.BaseTest;
 import generic.Excel;
 //import generic.GenerateExtentReport;
@@ -16,7 +18,7 @@ import page.Craftsvilla_HomePage;
 @Listeners(generic.Screenshot.class)
 public class VerifyMyCartPagedetails extends BaseTest {
 	
-	@Test(priority=1)
+	@Test(groups="report")
 	public void testVerifyMyCartPagedetails() throws EncryptedDocumentException, InvalidFormatException, IOException, InterruptedException
 	{
 		test = extent.startTest("VerifyMyCartPagedetails");
@@ -30,6 +32,7 @@ public class VerifyMyCartPagedetails extends BaseTest {
 		c.cartmsg();
 		c.verifybtn();
 		Thread.sleep(1000);
+		test.log(LogStatus.PASS, "Passed");
 	}
 
 }

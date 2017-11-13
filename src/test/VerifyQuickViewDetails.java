@@ -14,7 +14,7 @@ import page.QuickView;
 @Listeners(generic.Screenshot.class)
 public class VerifyQuickViewDetails  extends BaseTest {
 	
-	@Test(priority=5)
+	@Test(groups="report")
 	public void testVerifyQuickViewDetails() throws InterruptedException
 	{
 		test=extent.startTest("testVerifyQuickViewDetails");

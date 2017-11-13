@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public abstract class BaseTest implements AutoConstant{
 	
@@ -38,6 +39,7 @@ public void openapp()
 	driver=new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get("http://www.craftsvilla.com/");
+	//test.log(LogStatus.PASS, "URL is enetered");
 	driver.manage().window().maximize();
 		 
 	}

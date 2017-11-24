@@ -15,6 +15,8 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public abstract class BasePage {
 	
+	
+	
 	public static WebDriver driver;
 	public BasePage(WebDriver driver)
 	{
@@ -34,12 +36,14 @@ public abstract class BasePage {
 			//Reporter.log("Ttile is not matching",true);
 			BaseTest.test.log(LogStatus.FAIL, "Title is not matching");
 			Assert.fail();
+		
 		}
 	}
 	
 	public void verifyElementIsPresent(WebElement element)
 	{
 		try{
+			
 			WebDriverWait wait=new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOf(element));
 			//Reporter.log("Element is present",true);

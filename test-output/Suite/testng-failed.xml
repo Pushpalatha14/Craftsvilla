@@ -2,13 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="report"/>
+      </run>
+    </groups>
     <classes>
       <class name="test.VerifyQuickViewDetails">
         <methods>
           <include name="openapp"/>
           <include name="testVerifyQuickViewDetails"/>
-          <include name="endReport"/>
-          <include name="closeapp"/>
           <include name="startReport"/>
         </methods>
       </class> <!-- test.VerifyQuickViewDetails -->

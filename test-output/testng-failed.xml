@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.VerifyMyCartPagedetails">
+      <class name="test.VerifyInvalidloginWishlist">
         <methods>
           <include name="openapp"/>
-          <include name="testVerifyMyCartPagedetails"/>
-          <include name="endReport"/>
+          <include name="testVerifyInvalidloginWishlist"/>
           <include name="closeapp"/>
+          <include name="endReport"/>
           <include name="startReport"/>
         </methods>
-      </class> <!-- test.VerifyMyCartPagedetails -->
+      </class> <!-- test.VerifyInvalidloginWishlist -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,9 +2,12 @@ package generic;
 
 public interface AutoConstant {
 	
-	String KEY= "webdriver.chrome.driver";
-	String VALUE="./drivers/chromedriver.exe";
 	
+	
+	String CHROMEKEY= "webdriver.chrome.driver";
+	String CHROMEVALUE="./drivers/chromedriver.exe";
+	String GECKOKEY= "webdriver.gecko.driver";
+	String GECKOVALUE="./drivers/geckodriver.exe";
 	String PATH="./Data.xls";
 
 }

@@ -11,9 +11,13 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import generic.BaseTest;
 import generic.Excel;
+import generic.GenericUtils;
 //import generic.GenerateExtentReport;
 import page.Cart;
 import page.Craftsvilla_HomePage;
+import page.Product_Selection_Page;
+import page.Product_Spec_page;
+import page.QuickView;
 
 @Listeners(generic.Screenshot.class)
 public class VerifyMyCartPagedetails extends BaseTest {
@@ -21,9 +25,8 @@ public class VerifyMyCartPagedetails extends BaseTest {
 	@Test(groups="report")
 	public void testVerifyMyCartPagedetails() throws EncryptedDocumentException, InvalidFormatException, IOException, InterruptedException
 	{
+
 		test = extent.startTest("VerifyMyCartPagedetails");
-		
-		
 		String cartitl = Excel.getdata(PATH, "Titles", 0, 0);
 		Craftsvilla_HomePage bh=new Craftsvilla_HomePage(driver);
 		bh.cartclick();
@@ -35,4 +38,5 @@ public class VerifyMyCartPagedetails extends BaseTest {
 		test.log(LogStatus.PASS, "Passed");
 	}
 
+	
 }
